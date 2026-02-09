@@ -1,0 +1,126 @@
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f2f2f2;
+        }
+
+        .navbar-dark {
+            background-color: #2e2e2e;
+        }
+
+        .hero-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .cta-box {
+            background-color: #e6e6e6;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            height: 100%;
+        }
+
+        .cta-box a.btn {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            font-size: 1.5rem;
+            margin: 0 10px;
+            color: #444;
+        }
+
+        .social-icons a:hover {
+            color: #000;
+        }
+
+        footer {
+            background-color: #2e2e2e;
+            color: #ccc;
+        }
+        .carousel-item img {
+            height: 260px;        /* ajuste aquí: 200–300px suele verse bien */
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            .carousel-item img {
+                height: 180px;
+            }
+        }
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.auto-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.auto-title {
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+}
+/* Contenedor de autos */
+.autos {
+    display: flex;
+    justify-content: center;   /* centra horizontalmente */
+    align-items: flex-start;   /* alinea arriba */
+    flex-wrap: wrap;           /* permite varias cartas */
+    gap: 20px;                 /* espacio entre cartas */
+    padding: 20px;
+}
+
+/* Carta individual */
+.auto-card {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;        /* centra texto dentro de la carta */
+}
+
+.auto-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auto-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.auto-info p {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.auto-info .btn {
+    margin-top: 10px;
+}
