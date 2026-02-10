@@ -42,6 +42,13 @@ fetch('http://localhost:8000/api/autos')
                         >
                             Realizar cotización
                         </a>
+
+                        <a 
+                            href="modificar_auto.html?id=${auto.id}" 
+                            class="btn btn-dark btn-sm"
+                        >
+                            Editar auto
+                        </a>
                     </div>
 
                 </div>

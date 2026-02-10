@@ -49,6 +49,10 @@ class UtilsController extends Controller
             $montoAjustado *= 1.10; // +10%
         }
 
+        if ($edad > 60) {
+            $montoAjustado *= 1.20; // +20%
+        }
+
         // 4️⃣ Pago mensual
         $pagoMensual = $montoAjustado / $meses;
 
