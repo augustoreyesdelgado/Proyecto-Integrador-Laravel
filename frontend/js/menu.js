@@ -49,6 +49,13 @@ fetch('http://localhost:8000/api/autos')
                         >
                             Editar auto
                         </a>
+
+                        <a 
+                            href="eliminar_auto.html?id=${auto.id}" 
+                            class="btn btn-danger btn-sm"
+                        >
+                            Eliminar auto
+                        </a>
                     </div>
 
                 </div>
